@@ -214,14 +214,20 @@ p { line-height: 1.9; }
 
 /* ===================== HERO ===================== */
 #infinite {
-  background-color: #222;
-  background-image: url(../img/banner1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center 40%;
+  background: url(../img/banner1.jpg) center 35% / cover no-repeat;
   height: 100vh;
   min-height: 375px;
   position: relative;
+  overflow: hidden;
+}
+
+#infinite::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: inherit;
+  transform: scale(1.1);
+  z-index: -1;
 }
 
 .tm-hero-text-container {
