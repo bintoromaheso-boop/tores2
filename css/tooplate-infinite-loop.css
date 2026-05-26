@@ -322,7 +322,7 @@ p { line-height: 1.9; }
 }
 
 @media (max-width: 991px) {
-  #testimonials { background-image: url(../img/blue2.jpg); }
+  #testimonials { background-image: url(../img/blue1.jpg); }
 }
 
 .tm-testimonials-content { position: relative; z-index: 100; }
@@ -481,12 +481,23 @@ figure.effect-honey:hover h2 i {
   color: white;
   background-color: #001828;
   background-image: url(../img/blue1.jpg);
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
+  background-size: cover;
   min-height: 980px;
   position: relative;
   padding-bottom: 50px;
   padding-top: 100px;
+  overflow: hidden;
+}
+
+#contact::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: inherit;
+  transform: scale(1.1);
+  z-index: -1;
 }
 
 .contact-item {
