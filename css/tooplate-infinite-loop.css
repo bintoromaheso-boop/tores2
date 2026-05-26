@@ -313,14 +313,14 @@ p { line-height: 1.9; }
 /* ===================== TESTIMONIALS ===================== */
 #testimonials {
   color: white;
-  background-image: url(../img/infinite-loop-02.jpg);
+  background-image: url(../img/blue1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
 }
 
 @media (max-width: 991px) {
-  #testimonials { background-image: url(../img/infinite-loop-02-mobile.jpg); }
+  #testimonials { background-image: url(../img/blue2.jpg); }
 }
 
 .tm-testimonials-content { position: relative; z-index: 100; }
