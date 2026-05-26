@@ -218,7 +218,7 @@ p { line-height: 1.9; }
   background-image: url(../img/banner1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center 40%;
   height: 100vh;
   min-height: 375px;
   position: relative;
@@ -474,7 +474,7 @@ figure.effect-honey:hover h2 i {
 #contact {
   color: white;
   background-color: #001828;
-  background-image: url(../img/blue2.jpg);
+  background-image: url(../img/blue1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   min-height: 980px;
